@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Secrets & credentials
+.env
+credentials.json
+token.json
+*.pem
+*.key
+
+# Large data (keep on Google Drive, not in Git)
+data/raw/
+exports/
+outputs/
+*.xlsx
+*.xls
+
+# Windows artifacts
+desktop.ini
+Thumbs.db
+*.tmp
+~$*
+
+# IDE
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
